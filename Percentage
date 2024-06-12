@@ -1,0 +1,7 @@
+def percentage_calculator():
+    numerator = int(input())
+    denominator = int(input())
+    return int((numerator/denominator) * 100)
+
+
+print(percentage_calculator())
