@@ -1,0 +1,7 @@
+def pounds_to_kilograms(weight_in_pounds):
+    p_to_kg = 0.453592
+    w_in_kg = weight_in_pounds * p_to_kg
+    return w_in_kg
+weight_in_pounds = int(input())
+r = pounds_to_kilograms(weight_in_pounds)
+print(int(r))
